@@ -1,0 +1,7 @@
+useDynLib(BMRV)
+export(hbmr)
+export(blvcm)
+export(blvcm_bin)
+export(hbmr_bin)
+export(hbmr_ord)
+importFrom("stats", "pnorm", "rbinom", "uniroot")
